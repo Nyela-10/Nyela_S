@@ -1,17 +1,10 @@
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
-lang: en-US
-title: Mental Health Awarness
-email: shenoynyela@gmail.com
-github_username: Nyela-10
-
-
-skin: "/assets/css/skins/dark.css"
+theme: jekyll-theme-so-simple
+skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Healing Minds"
-description: "Embrace your Mental Health."
-baseurl: "/example" # the subpath of your site, e.g. "/blog"
-url: "https://nyela-10.github.io/Nyela_S/"
-logo: "https://logo-maker.freelogodesign.org/en/logo/edit/f78c281c3ca54682befbbbbc3f1b0cbc" # path of site logo, e.g. "/assets/images/logo.png"
+description: "Embrace your Mind"
+url: "https://github.com/Nyela-10/Nyela_S"
+logo: "https://logo-maker.freelogodesign.org/en/logo/edit/f78c281c3ca54682befbbbbc3f1b0cbc"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
@@ -24,8 +17,7 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-
+    
 # Liquid
 liquid:
   error_mode: strict
