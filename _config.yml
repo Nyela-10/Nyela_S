@@ -1,4 +1,4 @@
-remote_theme: "https://patdryburgh.github.io/hitchens/"
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5/"
 lang: en-US
 title: Mental Health Awarness
 email: shenoynyela@gmail.com
