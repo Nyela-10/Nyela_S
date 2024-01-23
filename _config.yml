@@ -4,7 +4,6 @@ locale: en-US
 title: "Healing Minds"
 description: "Embrace your Mind"
 url: "https://github.com/Nyela-10/Nyela_S"
-logo: "https://logo-maker.freelogodesign.org/en/logo/edit/f78c281c3ca54682befbbbbc3f1b0cbc"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
@@ -94,9 +93,9 @@ defaults:
     #- title: Instagram
      # url: https://instagram.com/mmistakes
      # icon: fab fa-instagram
-    #- title: GitHub
-     # url: https://github.com/mmistakes
-      #icon: fab fa-github-square
+    - title: GitHub
+      url: https://nyela-10.github.io/Nyela_S/
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
