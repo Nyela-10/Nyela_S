@@ -18,4 +18,10 @@ BPD is a complex mental disorder characterized by unstable emotions, impulsive b
 Anxiety disorders involve excessive worry, fear, or nervousness that can interfere with daily activities and relationships. Types of anxiety disorders include generalized anxiety disorder, panic disorder, social anxiety disorder, and specific phobias.
 
 # Automation Project:
+HEALING MINDS is a webpage created only using HTML, which gives you your daily dose of motivation and a health tip. 
+Created to inspire, to be inspired and for inspiration.
+### acessing the link:
+1. download the HTML file.
+2. run it on any browser of your liking.
 
+# Thank you!
