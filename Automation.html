@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>˚HEALING MINDS˚</title>
+    <style>
+        body {
+            font-family: 24px'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f79494;
+            color: #070000;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 105vh;
+        }
+
+        h1 {
+            color: #000000;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .quote-text {
+            font-weight: bold;
+            color: #330281; /* Adjusted to a brighter green */
+            font-size: 24px;
+        }
+
+        button {
+            background-color: #e299ea;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        button:hover {
+            background-color: #eaddf5;
+        }
+
+        /* Floral background */
+        .floral-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.2;
+        }
+    </style>
+</head>
+<body>
+    <img src="c:\Users\nyela\Downloads\4f43c0c63895e3c294f1c170ca6d4731.jpg" alt="Floral Background" class="floral-background">
+
+    <h1>══✿══╡°˖✧✿✧˖°╞══✿══HEALING MINDS══✿══╡°˖✧✿✧˖°╞══✿══</h1>
+    <p id="quote" class="quote-text"></p>
+    <p id="tip"></p>
+    <button onclick="generateContent()">Get Inspired</button>
+
+    <script>
+        var motivationalQuotes = [
+            "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+            "Your attitude, not your aptitude, will determine your altitude.",
+            "The only way to do great work is to love what you do.",
+            "Don't watch the clock; do what it does. Keep going.",
+            "The only limit to our realization of tomorrow will be our doubts of today.",
+            "Caring for your mental health is just as important as caring for your physical health.",
+            "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+            "Your mind is a powerful thing. When you fill it with positive thoughts, your life will start to change."
+        ];
+
+        var healthyTips = [
+            "Practice mindfulness meditation to reduce stress.",
+            "Ensure you get enough quality sleep each night.",
+            "Engage in regular physical exercise to boost mood and cognitive function.",
+            "Maintain a balanced and nutritious diet for overall well-being.",
+            "Connect with friends and loved ones to build a strong support system.",
+            "The limitations in life do not necessary limit you.",
+            "Recreate your life through renewal of your thoughts."
+        ];
+
+        function getRandomElement(arr) {
+            return arr[Math.floor(Math.random() * arr.length)];
+        }
+
+        function generateContent() {
+            var quoteElement = document.getElementById('quote');
+            var tipElement = document.getElementById('tip');
+            
+            var randomQuote = getRandomElement(motivationalQuotes);
+            var randomTip = getRandomElement(healthyTips);
+
+            quoteElement.innerText = randomQuote;
+            tipElement.innerText = "Healthy Tip: " + randomTip;
+        }
+    </script>
+</body>
+</html>
