@@ -5,12 +5,15 @@ My project seeks to empower individuals by promoting awareness, aiding in the id
 ## Understanding Depression: Breaking the Stigma and Seeking Help:
 Depression is a mood disorder characterized by persistent feelings of sadness, hopelessness, and loss of interest in activities. It can affect how a person feels, thinks, and handles daily activities.
 
+# Topic 2:
 ## Attention-Deficit/Hyperactivity Disorder (ADHD):
 ADHD is a neurodevelopmental disorder characterized by inattention, hyperactivity, and impulsivity. It often begins in childhood and can persist into adulthood.
 
+# Topic 3:
 ## Borderline Personality Disorder (BPD): 
 BPD is a complex mental disorder characterized by unstable emotions, impulsive behavior, distorted self-image, and difficulties in relationships.
 
+# Topic 4:
 ## Anxiety Disorders:
 Anxiety disorders involve excessive worry, fear, or nervousness that can interfere with daily activities and relationships. Types of anxiety disorders include generalized anxiety disorder, panic disorder, social anxiety disorder, and specific phobias.
 
